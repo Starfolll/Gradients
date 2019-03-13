@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../static/images/homeTab.png">
+    <title>Color</title>
+    <style>
+      body, html{
+        margin:0px;
+        padding:0px;
+        background: black;
+      }
+      .colors{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        justify-content: center;
+      }
+      .colors > div{
+        align-self: center;
+        transition: 1.5s;
+        width: 50px;
+        height: 50vh;
+        border-radius: 10px;
+        border: 3px solid black;
+      }
+      .colors > div:hover{
+        transition: 0.5s;
+        width: 100px;
+        height: 95vh;
+        border-width:0px;
+        margin: 0px 5px;
+      }
+      .colors > .color1{
+        background: linear-gradient(#F67280, #F8B195, #C06C84, #6C5B7B, #355C7D);
+      }
+      .colors > .color2{
+        background: linear-gradient(#204E5F, #FFC6A8, #FF8984, #B7D7D8, #EDF7F5);
+      }
+      .colors > .color3{
+        background: linear-gradient(#F2355B, #191226, #02A694, #EFB704, #F38902);
+      }
+      .colors > .color4{
+        background: linear-gradient(#233D4D, #FE7F2D, #FCCA46, #A1C181, #579C87);
+      }
+      .colors > .color5{
+        background: linear-gradient(#183945, #116973, #F67C1F, #D82B03, #F2F2F2);
+      }
+      .colors > .color6{
+        background: linear-gradient(#424242, #CDE0CC, #FF6D5D, #29304A, #E5D674);
+      }
+      .colors > .color7{
+        background: linear-gradient(#8D00FF, #6B00E8, #5E00FF, #4000E8, #2F00FF);
+      }
+      .colors > .color8{
+        background: linear-gradient(#FFFAF6, #EAEBED, #396389, #66A652, #0C6321);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="colors">
+      <div class="color1"></div>
+      <div class="color2"></div>
+      <div class="color3"></div>
+      <div class="color4"></div>
+      <div class="color5"></div>
+      <div class="color6"></div>
+      <div class="color7"></div>
+      <div class="color8"></div>
+    </div>
+  </body>
+</html>
